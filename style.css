@@ -98,3 +98,27 @@ body{
     text-decoration: none;
     color: hsl(75, 94%, 57%);
 }
+@media only screen and (max-width: 375px) {
+    html {
+        font-size: 9px;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .card {
+        width: 32.7rem;
+        height: 56.4rem;
+       
+    }   
+    .card-content {
+        padding: 2.4rem;
+        gap: 2rem;
+    }
+    .button-container {
+        width: 27.9rem;
+        height: 28.9rem;
+    }
+    .links button {
+        width: 27.9rem;
+        height: 4rem;
+    }
+}
