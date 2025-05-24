@@ -1,0 +1,100 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    height: 100vh;
+    overflow: hidden;
+}
+body{
+   font-family: inter;
+   background-color: hsl(0, 0%, 8%);
+   color: hsl(0, 0%, 100%);
+   height: 100vh;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 38.4rem;
+    height: 61.1rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 1.6rem;
+    box-shadow: 0 0 2.4rem hsl(0, 0%, 0%);
+}
+.card-content{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2.4rem;
+}
+.card-content img {
+    height: 8.8rem;
+    width: 8.8rem;
+    border-radius: 50px;
+    fill: 100%;
+}
+.name-location{
+    height: 6.1rem;
+    width: fill;
+}
+.name-location h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 150%;
+    padding: 0;
+    margin: 0;
+}
+.name-location p{
+    font-size: 1.4rem;
+    letter-spacing: 0;
+    line-height: 150%;
+    color: hsl(75, 94%, 57%);
+}
+.bio {
+    font-size: 1.4rem;
+    letter-spacing: 0;
+    line-height: 150%;
+    color: hsl(0, 0%, 100%);
+}
+.button-container{
+    height: 28.9rem;
+    width: 30.4rem; 
+}
+.links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem   
+}
+.links button {
+    border-radius: 10px;
+    width: 30.4rem;
+    height: 4.5rem;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.links button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transform: scale(1.04);
+    transition-duration: 0.3s;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+}
+.footer a {
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);
+}
